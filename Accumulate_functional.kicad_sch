@@ -1041,6 +1041,98 @@
 		)
 		(uuid "fcab1cd4-f0fe-4cde-8dcf-dd580f3ac657")
 	)
+	(sheet
+		(at 858.52 0)
+		(size 59.69 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "460137a3-cb30-4242-8a4d-35e3fde7ee86")
+		(property "Sheetname" "ECG"
+			(at 858.52 -0.7116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ECG.kicad_sch"
+			(at 858.52 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Accumulate_functional"
+				(path "/99fca793-e79a-435a-82d3-c27bbf906660"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 858.52 52.07)
+		(size 59.69 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dedbe838-8a35-4aee-b0c5-0a8d0eee62f2")
+		(property "Sheetname" "Accum"
+			(at 858.52 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accum.kicad_sch"
+			(at 858.52 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Accumulate_functional"
+				(path "/99fca793-e79a-435a-82d3-c27bbf906660"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

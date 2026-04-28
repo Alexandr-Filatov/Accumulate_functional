@@ -423,6 +423,14 @@
     [
       "99fca793-e79a-435a-82d3-c27bbf906660",
       "Корневой лист"
+    ],
+    [
+      "460137a3-cb30-4242-8a4d-35e3fde7ee86",
+      "ECG"
+    ],
+    [
+      "dedbe838-8a35-4aee-b0c5-0a8d0eee62f2",
+      "Accum"
     ]
   ],
   "text_variables": {},
