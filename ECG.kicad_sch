@@ -124,6 +124,22 @@
 		)
 		(uuid "15d4ea9b-41e4-4136-980a-d451fc381a55")
 	)
+	(text "Питание 24В"
+		(exclude_from_sim no)
+		(at 62.23 377.19 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "58602c7e-791d-4f8e-9358-ae6d4b360cba")
+	)
 	(text "Р"
 		(exclude_from_sim no)
 		(at 297.434 254.508 0)
@@ -189,6 +205,38 @@
 		)
 		(uuid "ab812402-88da-410f-bd2b-99e68b023793")
 	)
+	(text "Управление 24В"
+		(exclude_from_sim no)
+		(at 62.23 382.27 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b732a7d1-4944-41b1-93e7-e6732765d07e")
+	)
+	(text "CAN сеть"
+		(exclude_from_sim no)
+		(at 62.23 372.11 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b938d57c-6ee2-4bfb-bc6f-d17e2448ee73")
+	)
 	(text "ИР1-1"
 		(exclude_from_sim no)
 		(at 332.486 278.384 0)
@@ -202,7 +250,7 @@
 		)
 		(uuid "d36cc563-63b5-4b4a-9215-f9ba3db65c18")
 	)
-	(text_box "ADC/CAN\nпреобразователь"
+	(text_box "Analog/CAN\nпреобразователь"
 		(exclude_from_sim no)
 		(at 321.31 236.22 0)
 		(size 22.86 13.97)
@@ -253,7 +301,7 @@
 		)
 		(uuid "e113efea-4e3c-47d6-accc-15dae85ad8de")
 	)
-	(text_box "ADC/CAN\nпреобразователь"
+	(text_box "Analog/CAN\nпреобразователь"
 		(exclude_from_sim no)
 		(at 285.75 236.22 0)
 		(size 22.86 13.97)
@@ -551,6 +599,17 @@
 	)
 	(polyline
 		(pts
+			(xy 44.45 382.27) (xy 59.69 382.27)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "9d6598ae-d0bf-472e-8160-740231fcfcde")
+	)
+	(polyline
+		(pts
 			(xy 320.04 147.32) (xy 383.54 147.32)
 		)
 		(stroke
@@ -637,6 +696,17 @@
 	)
 	(polyline
 		(pts
+			(xy 44.45 372.11) (xy 59.69 372.11)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 194 0 1)
+		)
+		(uuid "fae28386-6915-4735-841b-99201cd32278")
+	)
+	(polyline
+		(pts
 			(xy 190.5 273.05) (xy 190.5 260.35)
 		)
 		(stroke
@@ -667,6 +737,17 @@
 			(color 132 0 0 1)
 		)
 		(uuid "fef3d80e-0c44-444a-90f5-a43fa63cff63")
+	)
+	(polyline
+		(pts
+			(xy 44.45 377.19) (xy 59.69 377.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "ff0c9c63-207b-4c81-bbfb-b29b1c2489d0")
 	)
 	(group ""
 		(uuid "2421383e-5eab-4b91-a0af-1726874e8e7a")

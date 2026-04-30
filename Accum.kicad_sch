@@ -112,6 +112,19 @@
 		(uuid "b3d22f0f-02c2-40e8-a5b0-edb272f37f00")
 	)
 	(rectangle
+		(start 146.05 88.9)
+		(end 490.22 325.12)
+		(stroke
+			(width 0.762)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c7a4bcae-da37-4a08-9002-4d8242d4c4e0")
+	)
+	(rectangle
 		(start 181.61 270.51)
 		(end 199.39 278.13)
 		(stroke
@@ -150,6 +163,38 @@
 		)
 		(uuid "1b3729a9-49f3-4ea6-ad1d-b3c52aa0709d")
 	)
+	(text "Питание 24В"
+		(exclude_from_sim no)
+		(at 73.66 361.95 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4ac243df-3985-4cf7-baa6-41585410b8ea")
+	)
+	(text "Аналоговый сигнал"
+		(exclude_from_sim no)
+		(at 73.66 351.79 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "521c01f7-2655-4e53-8d3b-391064cd6643")
+	)
 	(text "Р"
 		(exclude_from_sim no)
 		(at 310.134 273.558 0)
@@ -176,6 +221,35 @@
 		)
 		(uuid "68554a91-8ebb-4030-86dd-d1b83038c670")
 	)
+	(text "Управление 24В"
+		(exclude_from_sim no)
+		(at 73.66 367.03 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "68645870-2f7d-4604-8c53-e63009d39b6d")
+	)
+	(text "Арматура накопителя"
+		(exclude_from_sim no)
+		(at 313.944 109.22 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 6.35 6.35)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7de0c186-bf9c-4cc9-9486-3a494a32131a")
+	)
 	(text "+24В"
 		(exclude_from_sim no)
 		(at 363.22 179.578 0)
@@ -188,6 +262,22 @@
 			)
 		)
 		(uuid "cb2199ea-0f9b-4f89-a372-7176552628ba")
+	)
+	(text "CAN сеть"
+		(exclude_from_sim no)
+		(at 73.66 356.87 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d9179359-031e-490f-ae3d-f37ff42d011d")
 	)
 	(text "Р"
 		(exclude_from_sim no)
@@ -245,6 +335,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "151e326a-6c92-428c-bf87-ce123062d2de")
 	)
@@ -255,6 +346,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "2059e08c-2007-4df7-b71b-c5a58e0e9ace")
 	)
@@ -296,6 +388,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "4b98555f-b958-4874-b48a-8271a0726bb4")
 	)
@@ -306,6 +399,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "4be42fac-7c7a-48c4-be06-c453c9eb3f7c")
 	)
@@ -358,6 +452,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "57b593dc-381c-4ef5-a2dc-7fd99584dad4")
 	)
@@ -368,6 +463,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "58b7f461-b67c-4507-9d78-631f2a30bd1e")
 	)
@@ -389,6 +485,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "65fee1c1-d20b-4785-9f5e-d5e4f457aa82")
 	)
@@ -399,8 +496,42 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "694eeac1-3815-4634-a1ee-026abf053de6")
+	)
+	(polyline
+		(pts
+			(xy 55.88 356.87) (xy 71.12 356.87)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 194 0 1)
+		)
+		(uuid "6ff18fb0-7e8b-419a-b284-615e5e244513")
+	)
+	(polyline
+		(pts
+			(xy 55.88 361.95) (xy 71.12 361.95)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "76061579-8628-405a-8a7f-65557f018b53")
+	)
+	(polyline
+		(pts
+			(xy 55.88 367.03) (xy 71.12 367.03)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "77af00ba-1551-4024-bed3-f29cfbf9f3f2")
 	)
 	(polyline
 		(pts
@@ -441,6 +572,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "852645c1-216a-4448-93a6-e0552f58884c")
 	)
@@ -451,6 +583,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "8bc69d70-4e35-4d3b-861b-d7bd9dd0f8b7")
 	)
@@ -489,7 +622,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 166.37) (xy 396.24 166.37)
+			(xy 332.74 166.37) (xy 497.84 166.37)
 		)
 		(stroke
 			(width 0.762)
@@ -505,6 +638,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "ca8d09c6-5078-4330-bc3c-d226356d497c")
 	)
@@ -526,6 +660,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "d08fbe4a-1c23-400f-b55e-4d23b7546c74")
 	)
@@ -542,7 +677,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 182.88) (xy 396.24 182.88)
+			(xy 332.74 182.88) (xy 497.84 182.88)
 		)
 		(stroke
 			(width 0.762)
@@ -558,6 +693,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "e0e09930-531b-4792-a3e9-30628246e20e")
 	)
@@ -568,6 +704,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "e628189e-c6fb-475c-a00a-d10c5480987c")
 	)
@@ -633,6 +770,7 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "f35cba4c-7352-475d-bcc5-0f925ee8587d")
 	)
@@ -643,8 +781,20 @@
 		(stroke
 			(width 0.762)
 			(type solid)
+			(color 72 72 72 1)
 		)
 		(uuid "f4161106-11de-43a1-b2a5-90ebe83863b6")
+	)
+	(polyline
+		(pts
+			(xy 55.88 351.79) (xy 71.12 351.79)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(uuid "fe84957d-4542-4f2f-8d7d-11028bdbaa11")
 	)
 	(group ""
 		(uuid "463c1e2c-21f5-4921-95c7-ac0fa082aa87")
