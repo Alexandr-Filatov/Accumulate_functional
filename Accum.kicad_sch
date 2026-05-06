@@ -237,7 +237,7 @@
 		)
 		(uuid "68645870-2f7d-4604-8c53-e63009d39b6d")
 	)
-	(text "Арматура накопителя"
+	(text "Арматура СХКВ"
 		(exclude_from_sim no)
 		(at 313.944 109.22 0)
 		(effects
@@ -625,7 +625,7 @@
 			(xy 332.74 166.37) (xy 497.84 166.37)
 		)
 		(stroke
-			(width 0.762)
+			(width 1.27)
 			(type solid)
 			(color 0 194 0 1)
 		)
@@ -680,7 +680,7 @@
 			(xy 332.74 182.88) (xy 497.84 182.88)
 		)
 		(stroke
-			(width 0.762)
+			(width 1.27)
 			(type solid)
 			(color 194 0 0 1)
 		)
