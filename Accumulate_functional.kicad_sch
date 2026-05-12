@@ -5,6 +5,34 @@
 	(uuid "99fca793-e79a-435a-82d3-c27bbf906660")
 	(paper "A1")
 	(lib_symbols)
+	(rectangle
+		(start 124.46 447.04)
+		(end 264.16 546.1)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.2705882353)
+		)
+		(uuid "38f6393e-3fae-4400-9749-c60f5d8924b0")
+	)
+	(rectangle
+		(start 124.46 284.48)
+		(end 264.16 444.5)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.2588235294)
+		)
+		(uuid "f820b918-ef66-4395-8543-0cf1f9e36bbd")
+	)
 	(text "Питание 24В"
 		(exclude_from_sim no)
 		(at 63.5 546.1 0)
@@ -52,6 +80,34 @@
 		)
 		(uuid "397e9431-922a-43f3-8154-a9f123db30e2")
 	)
+	(text "Помещение 1"
+		(exclude_from_sim no)
+		(at 452.882 412.496 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 5.08 5.08)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6d4e53a6-4af9-4b39-864e-c1010cc25d2f")
+	)
+	(text "Помещение 2"
+		(exclude_from_sim no)
+		(at 257.556 367.792 90)
+		(effects
+			(font
+				(face "Calibri")
+				(size 5.08 5.08)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "92ee60fa-04c8-401a-9aa9-8e2ef8616523")
+	)
 	(text "Напряжение переменное AC (сеть)"
 		(exclude_from_sim no)
 		(at 63.5 530.86 0)
@@ -83,6 +139,20 @@
 			(justify left)
 		)
 		(uuid "acd68974-2c30-4feb-9519-06cac0fe7e75")
+	)
+	(text "Наружний шкаф"
+		(exclude_from_sim no)
+		(at 192.278 535.94 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 5.08 5.08)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ace08213-5332-46c3-92e6-9351be7f8f02")
 	)
 	(text ""
 		(exclude_from_sim no)
@@ -507,6 +577,17 @@
 	)
 	(polyline
 		(pts
+			(xy 274.32 444.5) (xy 274.32 281.94)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "0c6c4057-42ce-4f5c-8325-d8333540abe7")
+	)
+	(polyline
+		(pts
 			(xy 614.68 170.18) (xy 662.94 170.18)
 		)
 		(stroke
@@ -638,6 +719,17 @@
 	)
 	(polyline
 		(pts
+			(xy 124.46 281.94) (xy 274.32 281.94)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "41bee438-8efb-43c7-9e1e-8ba284ad40f7")
+	)
+	(polyline
+		(pts
 			(xy 195.58 360.68) (xy 195.58 370.84)
 		)
 		(stroke
@@ -734,6 +826,28 @@
 			(color 194 0 0 1)
 		)
 		(uuid "698550a2-2096-4ef2-8ed0-413f2a147e92")
+	)
+	(polyline
+		(pts
+			(xy 523.24 274.32) (xy 647.7 274.32)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "741ee79b-e2c6-4b54-aeb2-c710c67d045f")
+	)
+	(polyline
+		(pts
+			(xy 124.46 281.94) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "76495532-8f84-422f-a643-574c31746c87")
 	)
 	(polyline
 		(pts
@@ -979,6 +1093,17 @@
 	)
 	(polyline
 		(pts
+			(xy 124.46 25.4) (xy 523.24 25.4)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "cccf69d0-6405-472a-a7c1-4bc9b2129ea8")
+	)
+	(polyline
+		(pts
 			(xy 322.58 360.68) (xy 322.58 406.4)
 		)
 		(stroke
@@ -1031,6 +1156,17 @@
 			(color 194 0 0 1)
 		)
 		(uuid "dcb8a97d-6c99-45fd-91f0-bc5199819eeb")
+	)
+	(polyline
+		(pts
+			(xy 647.7 444.5) (xy 274.32 444.5)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "dcf9de3b-a7bb-4bb4-ab32-269f4248bbb3")
 	)
 	(wire
 		(pts
@@ -1111,6 +1247,17 @@
 	)
 	(polyline
 		(pts
+			(xy 647.7 274.32) (xy 647.7 444.5)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "f5d9603e-3195-45f3-a23b-85c4883805ac")
+	)
+	(polyline
+		(pts
 			(xy 45.72 530.86) (xy 60.96 530.86)
 		)
 		(stroke
@@ -1141,6 +1288,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "fcab1cd4-f0fe-4cde-8dcf-dd580f3ac657")
+	)
+	(polyline
+		(pts
+			(xy 523.24 25.4) (xy 523.24 274.32)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "fd99c176-50b8-49ba-a5ea-e91b28e1a532")
 	)
 	(sheet
 		(at 858.52 0)
