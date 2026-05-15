@@ -6,7 +6,7 @@
 	(paper "A2")
 	(lib_symbols)
 	(circle
-		(center 450.85 281.94)
+		(center 342.9 281.94)
 		(radius 10.8509)
 		(stroke
 			(width 0.762)
@@ -19,7 +19,7 @@
 		(uuid "04c321b3-e07a-41e4-94db-8e2b210c09af")
 	)
 	(circle
-		(center 309.88 280.67)
+		(center 233.426 281.432)
 		(radius 10.925)
 		(stroke
 			(width 0.762)
@@ -32,8 +32,8 @@
 		(uuid "07e402f5-8838-41b0-9f2e-02fcc469c58e")
 	)
 	(rectangle
-		(start 242.57 270.51)
-		(end 260.35 278.13)
+		(start 193.04 271.78)
+		(end 210.82 279.4)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -44,8 +44,22 @@
 		)
 		(uuid "0c071447-86f9-4bed-9a9b-15496d165f89")
 	)
+	(rectangle
+		(start 396.24 88.9)
+		(end 490.22 325.12)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.2588235294)
+		)
+		(uuid "1533303d-c24b-41e0-97e3-6dae311003d3")
+	)
 	(circle
-		(center 345.44 280.67)
+		(center 261.366 281.432)
 		(radius 10.925)
 		(stroke
 			(width 0.762)
@@ -58,7 +72,7 @@
 		(uuid "5bdc44d1-69ea-4787-8eee-f4698612c0b9")
 	)
 	(circle
-		(center 416.306 281.432)
+		(center 315.976 281.432)
 		(radius 10.925)
 		(stroke
 			(width 0.762)
@@ -71,9 +85,9 @@
 		(uuid "634782b2-76bb-4516-bacf-1c52e00de659")
 	)
 	(arc
-		(start 458.47 274.32)
-		(mid 450.85 277.4763)
-		(end 443.23 274.32)
+		(start 350.52 274.32)
+		(mid 342.9 277.4763)
+		(end 335.28 274.32)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -85,9 +99,9 @@
 		(uuid "785b9061-1b48-4da3-9e6c-b39c2e7d5dac")
 	)
 	(arc
-		(start 443.23 289.56)
-		(mid 450.85 286.4037)
-		(end 458.47 289.56)
+		(start 335.28 289.56)
+		(mid 342.9 286.4037)
+		(end 350.52 289.56)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -99,7 +113,7 @@
 		(uuid "7afc90eb-286e-4526-97f7-0630d3abc596")
 	)
 	(circle
-		(center 381 280.67)
+		(center 289.306 281.432)
 		(radius 10.925)
 		(stroke
 			(width 0.762)
@@ -125,8 +139,8 @@
 		(uuid "c7a4bcae-da37-4a08-9002-4d8242d4c4e0")
 	)
 	(rectangle
-		(start 181.61 270.51)
-		(end 199.39 278.13)
+		(start 156.21 271.78)
+		(end 173.99 279.4)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -139,7 +153,7 @@
 	)
 	(text "Р"
 		(exclude_from_sim no)
-		(at 381.254 273.558 0)
+		(at 289.56 274.32 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -150,9 +164,22 @@
 		)
 		(uuid "0a61fc5c-91e1-4178-bdba-f4a67e51c004")
 	)
+	(text "Арматура СХКВ"
+		(exclude_from_sim no)
+		(at 434.848 103.124 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 6.35 6.35)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "13ca2b77-0519-4b70-ad5b-60109db8bad8")
+	)
 	(text "Р"
 		(exclude_from_sim no)
-		(at 416.56 274.32 0)
+		(at 316.23 274.32 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -163,9 +190,9 @@
 		)
 		(uuid "1b3729a9-49f3-4ea6-ad1d-b3c52aa0709d")
 	)
-	(text "Питание 24В"
+	(text "Питание 24В 2 x 1,5кв.мм (например, ПВС)"
 		(exclude_from_sim no)
-		(at 73.66 361.95 0)
+		(at 73.914 362.458 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -179,7 +206,7 @@
 		)
 		(uuid "4ac243df-3985-4cf7-baa6-41585410b8ea")
 	)
-	(text "Аналоговый сигнал"
+	(text "Аналоговый сигнал (Например, МКЭШ 1,5)\n"
 		(exclude_from_sim no)
 		(at 73.66 351.79 0)
 		(effects
@@ -197,7 +224,7 @@
 	)
 	(text "Р"
 		(exclude_from_sim no)
-		(at 310.134 273.558 0)
+		(at 233.68 274.32 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -210,7 +237,7 @@
 	)
 	(text "CAN сеть"
 		(exclude_from_sim no)
-		(at 362.712 163.068 0)
+		(at 522.224 160.02 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -221,9 +248,9 @@
 		)
 		(uuid "68554a91-8ebb-4030-86dd-d1b83038c670")
 	)
-	(text "Управление 24В"
+	(text "Управление 24В 2 х 1,5 кв.мм (например МКЭШ 1,5)"
 		(exclude_from_sim no)
-		(at 73.66 367.03 0)
+		(at 73.406 368.046 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -237,9 +264,9 @@
 		)
 		(uuid "68645870-2f7d-4604-8c53-e63009d39b6d")
 	)
-	(text "Арматура СХКВ"
+	(text "Безопасная зона\n"
 		(exclude_from_sim no)
-		(at 313.944 109.22 0)
+		(at 187.96 101.854 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -252,7 +279,7 @@
 	)
 	(text "+24В"
 		(exclude_from_sim no)
-		(at 363.22 179.578 0)
+		(at 519.43 189.738 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -263,9 +290,9 @@
 		)
 		(uuid "cb2199ea-0f9b-4f89-a372-7176552628ba")
 	)
-	(text "CAN сеть"
+	(text "CAN сеть (КИС-В)"
 		(exclude_from_sim no)
-		(at 73.66 356.87 0)
+		(at 73.914 357.632 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -281,7 +308,7 @@
 	)
 	(text "Р"
 		(exclude_from_sim no)
-		(at 345.694 273.558 0)
+		(at 261.62 274.32 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -294,7 +321,7 @@
 	)
 	(text_box "Плата управления \nарматурой накопителя"
 		(exclude_from_sim no)
-		(at 254 140.97 0)
+		(at 400.05 140.97 0)
 		(size 78.74 71.12)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -320,17 +347,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.43 212.09) (xy 265.43 237.49)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-		)
-		(uuid "11d1bfb3-8c0f-41d4-a69e-ade6830ad44c")
-	)
-	(polyline
-		(pts
-			(xy 309.88 269.24) (xy 309.88 242.57)
+			(xy 233.68 270.51) (xy 233.68 170.18)
 		)
 		(stroke
 			(width 0.762)
@@ -341,7 +358,7 @@
 	)
 	(polyline
 		(pts
-			(xy 450.85 270.51) (xy 450.85 222.25)
+			(xy 342.9 270.51) (xy 342.9 205.74)
 		)
 		(stroke
 			(width 0.762)
@@ -352,7 +369,7 @@
 	)
 	(polyline
 		(pts
-			(xy 251.46 270.51) (xy 251.46 242.57)
+			(xy 201.93 271.78) (xy 201.93 158.75)
 		)
 		(stroke
 			(width 0.762)
@@ -362,7 +379,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 270.51) (xy 190.5 237.49)
+			(xy 165.1 271.78) (xy 165.1 149.86)
 		)
 		(stroke
 			(width 0.762)
@@ -372,7 +389,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 292.1) (xy 264.16 279.4)
+			(xy 214.63 293.37) (xy 214.63 280.67)
 		)
 		(stroke
 			(width 0.762)
@@ -383,7 +400,7 @@
 	)
 	(polyline
 		(pts
-			(xy 381 232.41) (xy 294.64 232.41)
+			(xy 288.29 189.23) (xy 400.05 189.23)
 		)
 		(stroke
 			(width 0.762)
@@ -394,18 +411,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.72 212.09) (xy 299.72 227.33)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(uuid "4be42fac-7c7a-48c4-be06-c453c9eb3f7c")
-	)
-	(polyline
-		(pts
-			(xy 190.5 237.49) (xy 265.43 237.49)
+			(xy 165.1 149.86) (xy 400.05 149.86)
 		)
 		(stroke
 			(width 0.762)
@@ -415,17 +421,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.78 212.09) (xy 271.78 242.57)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-		)
-		(uuid "537d944b-d94c-483b-aa9f-223fc3cc85f2")
-	)
-	(polyline
-		(pts
-			(xy 264.16 279.4) (xy 238.76 292.1)
+			(xy 214.63 280.67) (xy 189.23 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -436,7 +432,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 292.1) (xy 203.2 279.4)
+			(xy 177.8 293.37) (xy 177.8 280.67)
 		)
 		(stroke
 			(width 0.762)
@@ -447,7 +443,7 @@
 	)
 	(polyline
 		(pts
-			(xy 416.56 227.33) (xy 330.2 227.33)
+			(xy 316.23 198.12) (xy 400.05 198.12)
 		)
 		(stroke
 			(width 0.762)
@@ -458,18 +454,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 212.09) (xy 304.8 222.25)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(uuid "58b7f461-b67c-4507-9d78-631f2a30bd1e")
-	)
-	(polyline
-		(pts
-			(xy 254 278.13) (xy 254 284.48)
+			(xy 204.47 279.4) (xy 204.47 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -480,7 +465,7 @@
 	)
 	(polyline
 		(pts
-			(xy 309.88 242.57) (xy 284.48 242.57)
+			(xy 233.68 170.18) (xy 400.05 170.18)
 		)
 		(stroke
 			(width 0.762)
@@ -491,7 +476,7 @@
 	)
 	(polyline
 		(pts
-			(xy 416.56 270.51) (xy 416.56 227.33)
+			(xy 316.23 270.51) (xy 316.23 198.12)
 		)
 		(stroke
 			(width 0.762)
@@ -535,7 +520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 251.46 284.48) (xy 256.54 281.94)
+			(xy 201.93 285.75) (xy 207.01 283.21)
 		)
 		(stroke
 			(width 0.762)
@@ -546,7 +531,7 @@
 	)
 	(polyline
 		(pts
-			(xy 251.46 242.57) (xy 271.78 242.57)
+			(xy 201.93 158.75) (xy 400.05 158.75)
 		)
 		(stroke
 			(width 0.762)
@@ -556,7 +541,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 278.13) (xy 193.04 284.48)
+			(xy 167.64 279.4) (xy 167.64 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -567,7 +552,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.2 227.33) (xy 299.72 227.33)
+			(xy 400.05 198.12) (xy 316.23 198.12)
 		)
 		(stroke
 			(width 0.762)
@@ -578,18 +563,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.48 212.09) (xy 284.48 242.57)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(uuid "8bc69d70-4e35-4d3b-861b-d7bd9dd0f8b7")
-	)
-	(polyline
-		(pts
-			(xy 177.8 279.4) (xy 203.2 292.1)
+			(xy 152.4 280.67) (xy 177.8 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -600,7 +574,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 284.48) (xy 195.58 281.94)
+			(xy 165.1 285.75) (xy 170.18 283.21)
 		)
 		(stroke
 			(width 0.762)
@@ -611,7 +585,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 279.4) (xy 264.16 292.1)
+			(xy 189.23 280.67) (xy 214.63 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -622,7 +596,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 166.37) (xy 497.84 166.37)
+			(xy 549.91 166.37) (xy 478.79 166.37)
 		)
 		(stroke
 			(width 1.27)
@@ -633,18 +607,7 @@
 	)
 	(polyline
 		(pts
-			(xy 289.56 212.09) (xy 289.56 237.49)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(uuid "ca8d09c6-5078-4330-bc3c-d226356d497c")
-	)
-	(polyline
-		(pts
-			(xy 185.42 281.94) (xy 190.5 284.48)
+			(xy 160.02 283.21) (xy 165.1 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -655,18 +618,7 @@
 	)
 	(polyline
 		(pts
-			(xy 294.64 212.09) (xy 294.64 232.41)
-		)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(uuid "d08fbe4a-1c23-400f-b55e-4d23b7546c74")
-	)
-	(polyline
-		(pts
-			(xy 177.8 279.4) (xy 177.8 292.1)
+			(xy 152.4 280.67) (xy 152.4 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -677,7 +629,7 @@
 	)
 	(polyline
 		(pts
-			(xy 332.74 182.88) (xy 497.84 182.88)
+			(xy 478.79 182.88) (xy 549.91 182.88)
 		)
 		(stroke
 			(width 1.27)
@@ -688,7 +640,7 @@
 	)
 	(polyline
 		(pts
-			(xy 345.44 237.49) (xy 289.56 237.49)
+			(xy 260.35 179.07) (xy 400.05 179.07)
 		)
 		(stroke
 			(width 0.762)
@@ -699,7 +651,7 @@
 	)
 	(polyline
 		(pts
-			(xy 381 269.24) (xy 381 232.41)
+			(xy 288.29 270.51) (xy 288.29 189.23)
 		)
 		(stroke
 			(width 0.762)
@@ -710,7 +662,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 279.4) (xy 177.8 292.1)
+			(xy 177.8 280.67) (xy 152.4 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -721,7 +673,7 @@
 	)
 	(polyline
 		(pts
-			(xy 187.96 278.13) (xy 187.96 284.48)
+			(xy 162.56 279.4) (xy 162.56 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -732,7 +684,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 278.13) (xy 248.92 284.48)
+			(xy 199.39 279.4) (xy 199.39 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -743,7 +695,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 279.4) (xy 238.76 292.1)
+			(xy 189.23 280.67) (xy 189.23 293.37)
 		)
 		(stroke
 			(width 0.762)
@@ -754,7 +706,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.38 281.94) (xy 251.46 284.48)
+			(xy 196.85 283.21) (xy 201.93 285.75)
 		)
 		(stroke
 			(width 0.762)
@@ -765,7 +717,7 @@
 	)
 	(polyline
 		(pts
-			(xy 345.44 269.24) (xy 345.44 237.49)
+			(xy 260.35 270.51) (xy 260.35 179.07)
 		)
 		(stroke
 			(width 0.762)
@@ -776,7 +728,7 @@
 	)
 	(polyline
 		(pts
-			(xy 450.85 222.25) (xy 304.8 222.25)
+			(xy 342.9 205.74) (xy 400.05 205.74)
 		)
 		(stroke
 			(width 0.762)

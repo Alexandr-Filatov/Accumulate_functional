@@ -97,6 +97,19 @@
 		)
 		(uuid "6c784442-38c1-4fa5-844a-be98d892e64f")
 	)
+	(rectangle
+		(start 134.62 87.63)
+		(end 473.71 203.2)
+		(stroke
+			(width 0.635)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7f95f641-0adc-44ed-a244-5b0cbe79211b")
+	)
 	(arc
 		(start 340.36 254)
 		(mid 332.74 257.1563)
@@ -123,19 +136,6 @@
 			)
 		)
 		(uuid "10c8a34f-6bb2-47e4-bac2-a215317cbe27")
-	)
-	(text "+24В"
-		(exclude_from_sim no)
-		(at 350.52 160.528 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 3.81 3.81)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "15d4ea9b-41e4-4136-980a-d451fc381a55")
 	)
 	(text "T2-1"
 		(exclude_from_sim no)
@@ -165,6 +165,19 @@
 			(justify left)
 		)
 		(uuid "58602c7e-791d-4f8e-9358-ae6d4b360cba")
+	)
+	(text "Помещение 1"
+		(exclude_from_sim no)
+		(at 435.864 100.33 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 6.35 6.35)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "59017510-32c6-46d9-ac1f-d58733ac66c2")
 	)
 	(text "Напряжение переменное AC (сеть)"
 		(exclude_from_sim no)
@@ -211,22 +224,9 @@
 		)
 		(uuid "828d61a6-c7b7-4727-ab2a-1dc92d3a9631")
 	)
-	(text "CAN сеть"
+	(text "Помещение 2"
 		(exclude_from_sim no)
-		(at 350.012 144.018 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 3.81 3.81)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "8a43495a-57c6-403b-ac16-05e7b100d8a6")
-	)
-	(text "Арматура ЭХГ"
-		(exclude_from_sim no)
-		(at 258.572 310.896 0)
+		(at 440.436 316.23 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -349,7 +349,7 @@
 	)
 	(text_box "Контроллер верхнего уровня (КВУ)"
 		(exclude_from_sim no)
-		(at 241.3 121.92 0)
+		(at 229.87 121.92 0)
 		(size 78.74 71.12)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -587,7 +587,7 @@
 		(stroke
 			(width 1.27)
 			(type solid)
-			(color 194 0 194 1)
+			(color 50 0 50 1)
 		)
 		(uuid "80f2475f-ac26-4a11-b337-247e393352c2")
 	)
@@ -625,17 +625,6 @@
 	)
 	(polyline
 		(pts
-			(xy 320.04 163.83) (xy 383.54 163.83)
-		)
-		(stroke
-			(width 1.27)
-			(type solid)
-			(color 194 0 0 1)
-		)
-		(uuid "8ea96a51-d5fe-4c95-a1bc-1338b32b0b1d")
-	)
-	(polyline
-		(pts
 			(xy 177.8 251.46) (xy 177.8 218.44)
 		)
 		(stroke
@@ -654,17 +643,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9d6598ae-d0bf-472e-8160-740231fcfcde")
-	)
-	(polyline
-		(pts
-			(xy 320.04 147.32) (xy 383.54 147.32)
-		)
-		(stroke
-			(width 1.27)
-			(type solid)
-			(color 0 194 0 1)
-		)
-		(uuid "a4498f08-3a2c-4082-9bf1-c215b3083452")
 	)
 	(polyline
 		(pts
