@@ -150,7 +150,7 @@
 		)
 		(uuid "4c5a3599-ae7f-4961-915a-51ea734f0b17")
 	)
-	(text "Питание 24В"
+	(text "Питание 24В 2 x 1,5кв.мм (например, ПВС)"
 		(exclude_from_sim no)
 		(at 62.23 377.19 0)
 		(effects
@@ -166,7 +166,7 @@
 		)
 		(uuid "58602c7e-791d-4f8e-9358-ae6d4b360cba")
 	)
-	(text "Помещение 1"
+	(text "Помещение 2"
 		(exclude_from_sim no)
 		(at 435.864 100.33 0)
 		(effects
@@ -224,7 +224,7 @@
 		)
 		(uuid "828d61a6-c7b7-4727-ab2a-1dc92d3a9631")
 	)
-	(text "Помещение 2"
+	(text "Помещение 1"
 		(exclude_from_sim no)
 		(at 440.436 316.23 0)
 		(effects
@@ -289,7 +289,7 @@
 		)
 		(uuid "b62fd98c-64bf-4000-bf4a-7efa890d0f83")
 	)
-	(text "Управление 24В"
+	(text "Управление 24В 2 х 1,5 кв.мм (например МКЭШ 1,5)"
 		(exclude_from_sim no)
 		(at 62.23 382.27 0)
 		(effects
@@ -333,6 +333,22 @@
 			)
 		)
 		(uuid "c3578bd2-0f77-413d-87fa-1e187bf5bd3c")
+	)
+	(text "Аналоговая цепь 2 х 1,5 кв.мм (например МКЭШ 1,5)"
+		(exclude_from_sim no)
+		(at 61.976 388.112 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c88cacdd-1305-4d8d-897a-4f39275809bd")
 	)
 	(text "ИР1-1"
 		(exclude_from_sim no)
@@ -405,6 +421,17 @@
 			(color 132 0 0 1)
 		)
 		(uuid "101ca273-3fc4-4d1f-a1ee-997d0f7e52d6")
+	)
+	(polyline
+		(pts
+			(xy 44.45 387.35) (xy 59.69 387.35)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(uuid "10a0a62b-f3fc-4b74-b8a7-5d4182aa1c7f")
 	)
 	(polyline
 		(pts
