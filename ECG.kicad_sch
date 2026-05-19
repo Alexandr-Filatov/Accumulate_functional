@@ -5,6 +5,19 @@
 	(uuid "95d3177c-61c2-4199-9773-7b0160adaff8")
 	(paper "A2")
 	(lib_symbols)
+	(circle
+		(center 270.256 261.112)
+		(radius 10.925)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "275ecefa-ee0c-4be6-99d9-43ee472bc265")
+	)
 	(rectangle
 		(start 168.91 251.46)
 		(end 186.69 259.08)
@@ -47,7 +60,7 @@
 	)
 	(rectangle
 		(start 134.62 208.28)
-		(end 473.71 323.85)
+		(end 496.57 323.85)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -99,7 +112,7 @@
 	)
 	(rectangle
 		(start 134.62 87.63)
-		(end 473.71 203.2)
+		(end 496.57 203.2)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -136,6 +149,19 @@
 			)
 		)
 		(uuid "10c8a34f-6bb2-47e4-bac2-a215317cbe27")
+	)
+	(text "QA1-1"
+		(exclude_from_sim no)
+		(at 269.748 277.876 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 5.08 5.08)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "3809da08-9bf7-4dc7-a38a-9142fcb8af46")
 	)
 	(text "T2-1"
 		(exclude_from_sim no)
@@ -362,6 +388,19 @@
 			)
 		)
 		(uuid "d36cc563-63b5-4b4a-9215-f9ba3db65c18")
+	)
+	(text "QA"
+		(exclude_from_sim no)
+		(at 270.51 254 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.81 3.81)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "fb40584c-c175-4a28-85a1-fee45963e35b")
 	)
 	(text_box "Контроллер верхнего уровня (КВУ)"
 		(exclude_from_sim no)
@@ -738,6 +777,17 @@
 	)
 	(polyline
 		(pts
+			(xy 270.51 193.04) (xy 270.51 222.25)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(uuid "eb17184b-1a6c-4070-81e7-ef3174981a91")
+	)
+	(polyline
+		(pts
 			(xy 416.56 265.43) (xy 422.91 259.08)
 		)
 		(stroke
@@ -814,6 +864,17 @@
 	)
 	(polyline
 		(pts
+			(xy 270.51 222.25) (xy 270.51 250.19)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(uuid "fde69e5f-b911-42f1-8aaf-c05a9169bd7d")
+	)
+	(polyline
+		(pts
 			(xy 429.26 242.57) (xy 429.26 265.43)
 		)
 		(stroke
@@ -867,6 +928,10 @@
 	(group ""
 		(uuid "96ee9dc6-9182-49fd-a74c-7235631c7ff9")
 		(members "57d45db1-b38b-4385-a061-d1ec1fdbfddc" "b62fd98c-64bf-4000-bf4a-7efa890d0f83")
+	)
+	(group ""
+		(uuid "b0319591-3a1e-4b58-8135-a8c14b41686e")
+		(members "275ecefa-ee0c-4be6-99d9-43ee472bc265" "fb40584c-c175-4a28-85a1-fee45963e35b")
 	)
 	(group ""
 		(uuid "c57b21e6-a60f-4a34-9569-49cb820a4f48")
